@@ -101,7 +101,7 @@
     <dependency>
       <groupId>org.arquillian.cube</groupId>
       <artifactId>arquillian-cube-openshift</artifactId>
-<!--      <version>${version.arquillian-cube}</version>-->
+      <version>${version.arquillian-cube}</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
