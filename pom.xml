@@ -170,7 +170,7 @@
         <version>${version.maven-surefire-plugin}</version>
         <configuration>
           <classpathDependencyExcludes>
-            <classpathDependencyExclude>org.arquillian.cube:arquillian-cube-openshift</classpathDependencyExclude>
+<!--            <classpathDependencyExclude>org.arquillian.cube:arquillian-cube-openshift</classpathDependencyExclude>-->
             <classpathDependencyExclude>org.arquillian.cube:arquillian-cube-kubernetes</classpathDependencyExclude>
           </classpathDependencyExcludes>
         </configuration>
