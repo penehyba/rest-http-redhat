@@ -39,7 +39,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <version.arquillian-cube>1.18.2</version.arquillian-cube>
+    <version.arquillian-cube>1.18.X</version.arquillian-cube>
     <version.awaitility>4.0.3</version.awaitility>
     <version.fabric8-maven-plugin>4.4.1</version.fabric8-maven-plugin>
     <version.maven-surefire-plugin>2.22.2</version.maven-surefire-plugin>
@@ -101,6 +101,7 @@
     <dependency>
       <groupId>org.arquillian.cube</groupId>
       <artifactId>arquillian-cube-openshift</artifactId>
+      <version>${version.arquillian-cube}</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
