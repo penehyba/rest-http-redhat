@@ -21,7 +21,7 @@
 
   <groupId>io.thorntail.example</groupId>
   <artifactId>thorntail-rest-http</artifactId>
-  <version>2.7.2-redhat-2-SNAPSHOT</version>
+  <version>2.7.2-redhat-1</version>
   <packaging>war</packaging>
 
   <name>Thorntail - REST API Level 0</name>
@@ -67,13 +67,6 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-      <dependency>
-        <groupId>org.arquillian.cube</groupId>
-        <artifactId>arquillian-cube-bom</artifactId>
-        <version>${version.arquillian-cube}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -101,6 +94,7 @@
     <dependency>
       <groupId>org.arquillian.cube</groupId>
       <artifactId>arquillian-cube-openshift</artifactId>
+      <version>${version.arquillian-cube}</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
